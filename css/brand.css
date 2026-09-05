@@ -17,6 +17,9 @@
 
 .footer span { display: block; margin: 10px 0; }
 .footer h4 { margin-bottom: 14px; }
+.footer-admin-link { max-width: 310px; }
+.footer-admin-link:hover,
+.footer-admin-link:focus { color: var(--sun); text-decoration: underline; }
 [hidden] { display: none !important; }
 .form-section { border: 1px solid #dce5ed; border-radius: 16px; padding: 20px; margin: 4px 0; }
 .form-section legend { padding: 0 8px; color: #071d38; font-weight: 850; font-size: 1.05rem; }

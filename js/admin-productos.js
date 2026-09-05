@@ -1,6 +1,6 @@
 const CUSTOM_PRODUCTS_KEY='esquiSolarCustomProducts';
-const ADMIN_PASSWORD_KEY='esquiSolarAdminPassword';
 const ADMIN_SESSION_KEY='esquiSolarAdminSession';
+const ADMIN_PASSWORD_HASH='22ee24138287dc2292ebddcd159b458216f797678430c91a41c2ab984b3a0f52';
 const $=selector=>document.querySelector(selector);
 
 async function hashPassword(value){const bytes=new TextEncoder().encode(value);const hash=await crypto.subtle.digest('SHA-256',bytes);return Array.from(new Uint8Array(hash),byte=>byte.toString(16).padStart(2,'0')).join('')}
@@ -8,9 +8,9 @@ function customProducts(){try{return JSON.parse(localStorage.getItem(CUSTOM_PROD
 function saveCustomProducts(items){localStorage.setItem(CUSTOM_PRODUCTS_KEY,JSON.stringify(items))}
 function escapeHtml(value){return String(value).replace(/[&<>'"]/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[char]))}
 function showWorkspace(){ $('[data-admin-login]').hidden=true;$('[data-admin-workspace]').hidden=false;renderCustomList() }
-function configureLogin(){const exists=Boolean(localStorage.getItem(ADMIN_PASSWORD_KEY));$('[data-login-title]').textContent=exists?'Administrar productos':'Crear clave privada';$('[data-login-help]').textContent=exists?'Ingrese su clave para continuar.':'Escriba una clave de al menos 6 caracteres. Esta clave se guardará únicamente en este navegador.';$('#admin-password').autocomplete=exists?'current-password':'new-password'}
+function configureLogin(){$('[data-login-title]').textContent='Administrar productos';$('[data-login-help]').textContent='Ingrese su clave de acceso para continuar.';$('#admin-password').autocomplete='current-password'}
 
-$('[data-login-form]').addEventListener('submit',async event=>{event.preventDefault();const input=$('#admin-password');const entered=await hashPassword(input.value);const saved=localStorage.getItem(ADMIN_PASSWORD_KEY);if(!saved){localStorage.setItem(ADMIN_PASSWORD_KEY,entered);sessionStorage.setItem(ADMIN_SESSION_KEY,'1');showWorkspace();return}if(entered===saved){sessionStorage.setItem(ADMIN_SESSION_KEY,'1');showWorkspace()}else{$('[data-login-error]').textContent='La clave no es correcta.';input.select()}});
+$('[data-login-form]').addEventListener('submit',async event=>{event.preventDefault();const input=$('#admin-password');const entered=await hashPassword(input.value);if(entered===ADMIN_PASSWORD_HASH){sessionStorage.setItem(ADMIN_SESSION_KEY,'1');showWorkspace()}else{$('[data-login-error]').textContent='La clave no es correcta.';input.select()}});
 $('[data-logout]').addEventListener('click',()=>{sessionStorage.removeItem(ADMIN_SESSION_KEY);location.reload()});
 
 async function optimizeImage(file){
