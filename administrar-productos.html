@@ -35,6 +35,7 @@
           <div class="field"><label for="product-image">Imagen del producto <span data-image-required>*</span></label><input id="product-image" name="image" type="file" accept="image/png,image/jpeg,image/webp" required><small data-image-help>La imagen se optimiza antes de guardarse.</small></div>
           <div class="image-preview" data-image-preview><span>Vista previa</span></div>
           <div class="field"><label for="product-name">Nombre *</label><input id="product-name" name="name" maxlength="100" inputmode="text" required></div>
+          <div class="form-grid compact-grid"><div class="field"><label for="product-brand">Marca (opcional)</label><input id="product-brand" name="brand" maxlength="80" inputmode="text" placeholder="Ej. LuxPower"></div><div class="field"><label for="product-model">Modelo (opcional)</label><input id="product-model" name="model" maxlength="80" inputmode="text" placeholder="Ej. SNA 6000"></div></div>
           <div class="form-grid compact-grid"><div class="field"><label for="product-old-price">Precio anterior</label><input id="product-old-price" name="old_price" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ej. 1590"></div><div class="field"><label for="product-price">Precio actual *</label><input id="product-price" name="price" type="number" min="0" step="0.01" inputmode="decimal" required></div></div>
           <div class="field"><label for="product-category">Categoría</label><select id="product-category" name="category"><option>Paneles solares</option><option>Baterías</option><option>Inversores</option><option>Controladores de carga</option><option>Iluminación solar</option><option>Refrigeración solar</option><option>Accesorios</option><option>Otros</option></select></div>
           <div class="form-grid compact-grid"><div class="field"><label for="product-label">Etiqueta</label><select id="product-label" name="label"><option value="">Sin etiqueta</option><option>Oferta</option><option>Nuevo</option><option>Recomendado</option><option>Últimas unidades</option></select></div><div class="field"><label for="product-availability">Disponibilidad</label><select id="product-availability" name="availability"><option>Disponible</option><option>Últimas unidades</option><option>Consultar existencias</option><option>Bajo pedido</option><option>Agotado</option></select></div></div>
@@ -48,7 +49,7 @@
     </section>
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="js/supabase-config.js"></script>
-  <script src="js/admin-productos.js"></script>
+  <script src="js/supabase-config.js?v=12"></script>
+  <script src="js/admin-productos.js?v=12"></script>
 </body>
 </html>
