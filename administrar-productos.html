@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Administrar productos | EsquiSolar</title>
+  <link rel="icon" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/brand.css">
+</head>
+<body class="admin-page">
+  <main class="admin-shell">
+    <section class="admin-login card" data-admin-login>
+      <img src="assets/images/logo-esquisolar-icon.webp" alt="EsquiSolar" width="72" height="66">
+      <span class="eyebrow">Acceso privado</span>
+      <h1 data-login-title>Administrar productos</h1>
+      <p data-login-help>Ingrese su clave para continuar.</p>
+      <form data-login-form>
+        <div class="field"><label for="admin-password">Clave de acceso</label><input id="admin-password" type="password" minlength="6" autocomplete="current-password" inputmode="text" autofocus required></div>
+        <button class="btn btn-primary full" type="submit">Ingresar</button>
+        <p class="admin-error" data-login-error role="alert"></p>
+      </form>
+    </section>
+
+    <section class="admin-workspace" data-admin-workspace hidden>
+      <header class="admin-heading"><div><span class="eyebrow">Panel privado</span><h1>Administrar productos</h1><p>Los productos guardados aparecen automáticamente en el catálogo de este navegador.</p></div><div class="actions"><a class="btn btn-outline" href="productos.html">Ver catálogo</a><button class="btn btn-dark" type="button" data-logout>Salir</button></div></header>
+      <div class="admin-layout">
+        <form class="card admin-form" data-product-form>
+          <h2>Agregar producto</h2>
+          <div class="field"><label for="product-image">Imagen del producto *</label><input id="product-image" name="image" type="file" accept="image/png,image/jpeg,image/webp" required><small>La imagen se optimiza antes de guardarse.</small></div>
+          <div class="image-preview" data-image-preview><span>Vista previa</span></div>
+          <div class="field"><label for="product-name">Nombre *</label><input id="product-name" name="name" maxlength="100" inputmode="text" required></div>
+          <div class="field"><label for="product-price">Precio en quetzales *</label><input id="product-price" name="price" type="number" min="0" step="0.01" inputmode="decimal" required></div>
+          <div class="field"><label for="product-category">Categoría</label><select id="product-category" name="category"><option>Paneles solares</option><option>Baterías</option><option>Inversores</option><option>Controladores de carga</option><option>Iluminación solar</option><option>Refrigeración solar</option><option>Accesorios</option><option>Otros</option></select></div>
+          <div class="field"><label for="product-description">Descripción *</label><textarea id="product-description" name="description" maxlength="400" required></textarea></div>
+          <button class="btn btn-green" type="submit">Guardar y publicar</button>
+          <p class="admin-status" data-admin-status role="status"></p>
+        </form>
+        <section class="card admin-products"><div class="admin-list-head"><div><h2>Productos agregados</h2><p>Puede eliminarlos cuando ya no estén disponibles.</p></div><strong data-custom-count>0</strong></div><div data-custom-list></div></section>
+      </div>
+    </section>
+  </main>
+  <script src="js/admin-productos.js"></script>
+</body>
+</html>

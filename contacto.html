@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto y cotización | EsquiSolar</title>
+  <meta name="description" content="Cotice un sistema solar conectado a red, híbrido o de bombeo.">
+  <link rel="icon" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/brand.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a><div data-header></div>
+  <main id="contenido">
+    <section class="page-hero"><div class="container"><span class="eyebrow">Hablemos de su proyecto</span><h1>Solicite una cotización</h1><p>Complete el formulario y enviaremos los datos directamente por WhatsApp. La página no almacena su información.</p></div></section>
+    <section class="section">
+      <div class="container contact-grid">
+        <aside class="card"><h2>Contacto</h2><ul class="contact-list">
+          <li><strong>WhatsApp</strong><br><a data-wa="Hola, EsquiSolar. Quiero información." target="_blank" rel="noopener">+502 3652 9128</a></li>
+          <li><strong>Correo</strong><br><a href="mailto:esquisolar@gmail.com">esquisolar@gmail.com</a></li>
+          <li><strong>Dirección</strong><br>4-59 zona 1, sobre la sexta avenida, Esquipulas. Local EsquiSolar</li>
+          <li><strong>Horario</strong><br>Lunes a sábado, 8:00 a. m. a 5:00 p. m.</li>
+          <li><strong>Cobertura</strong><br>Todo el país</li>
+        </ul></aside>
+        <div class="card form-card" id="cotizacion">
+          <span class="eyebrow">Residencial o comercial</span><h2>Cotice un sistema solar atado a red o híbrido</h2><p>Si no conoce algún dato, elija “No lo sé” y un asesor le orientará.</p>
+          <form class="form-grid" data-quote-form="un sistema solar atado a red o híbrido">
+            <div class="field full first-question"><label for="tipo-sistema">¿Qué tipo de sistema necesita? *</label><select id="tipo-sistema" name="Tipo de sistema" required><option value="">Seleccione el tipo de sistema</option><option>Atado a la red</option><option>Híbrido con baterías</option><option>No lo sé, necesito asesoría</option></select></div>
+            <div class="field"><label for="nombre">Nombre *</label><input id="nombre" name="Nombre" autocomplete="name" required></div>
+            <div class="field"><label for="telefono">Teléfono *</label><input id="telefono" name="Teléfono" type="tel" inputmode="tel" autocomplete="tel" required></div>
+            <div class="field"><label for="tipo-propiedad">Tipo de propiedad</label><select id="tipo-propiedad" name="Tipo de propiedad"><option>Vivienda</option><option>Comercio</option><option>Industria</option><option>Finca</option><option>Otro</option></select></div>
+            <div class="field"><label for="tipo-techo">Tipo de techo *</label><select id="tipo-techo" name="Tipo de techo" required><option value="">Seleccione</option><option>Lámina</option><option>Terraza de concreto</option><option>Teja</option><option>Otro</option><option>No lo sé</option></select></div>
+            <div class="field"><label for="departamento">Departamento *</label><select id="departamento" name="Departamento" autocomplete="address-level1" required><option value="">Seleccione un departamento</option></select></div>
+            <div class="field"><label for="municipio">Municipio *</label><select id="municipio" name="Municipio" autocomplete="address-level2" required disabled><option value="">Primero seleccione un departamento</option></select></div>
+            <fieldset class="full form-section"><legend>Consumo de energía</legend><div class="form-grid compact-grid">
+              <div class="field"><label for="dato-factura">Dato disponible</label><select id="dato-factura" name="Dato de factura"><option>Consumo mensual en kWh</option><option>Monto mensual en quetzales</option><option>Tengo ambos datos</option><option>No lo sé</option></select></div>
+              <div class="field"><label for="consumo">Consumo mensual (kWh)</label><input id="consumo" name="Consumo mensual en kWh" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ej. 450"></div>
+              <div class="field"><label for="factura">Monto mensual (Q)</label><input id="factura" name="Monto mensual en quetzales" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Ej. 850"></div>
+              <div class="field"><label for="distribuidora">Empresa eléctrica *</label><select id="distribuidora" name="Empresa eléctrica" required><option value="">Seleccione</option><option>EEGSA</option><option>Energuate</option><option>Empresa eléctrica municipal</option><option>Otra</option><option>No lo sé</option></select></div>
+            </div></fieldset>
+            <fieldset class="full form-section" data-hybrid-only hidden><legend>Aparatos o equipos que desea utilizar o respaldar</legend><p class="field-help">Esta información se solicita únicamente para calcular el respaldo del sistema híbrido.</p><div class="appliance-grid">
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Iluminación"><span>💡 Iluminación</span></label>
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Refrigeradora"><span>❄ Refrigeradora</span></label>
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Televisor"><span>📺 Televisor</span></label>
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Internet y router"><span>📶 Internet y router</span></label>
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Computadoras"><span>💻 Computadoras</span></label>
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Bomba de agua"><span>💧 Bomba de agua</span></label>
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Aire acondicionado"><span>🌬 Aire acondicionado</span></label>
+              <label class="check-card"><input type="checkbox" name="Aparato" value="Cámaras de seguridad"><span>📷 Cámaras</span></label>
+            </div><div class="field other-equipment"><label for="otros-equipos">Otros aparatos y cantidades</label><textarea id="otros-equipos" name="Otros aparatos" placeholder="Ej. 6 focos, 2 ventiladores y 1 congelador"></textarea></div></fieldset>
+            <div class="field" data-hybrid-only hidden><label for="horas-equipos">Horas de funcionamiento diario</label><select id="horas-equipos" name="Horas de funcionamiento de equipos" disabled><option>1 a 2 horas</option><option>3 a 4 horas</option><option>5 a 8 horas</option><option>9 a 12 horas</option><option>Más de 12 horas</option><option>Todo el día</option><option>No lo sé</option></select></div>
+            <div class="field" data-hybrid-only hidden><label for="horas-apagon">Respaldo durante apagones</label><select id="horas-apagon" name="Horas de respaldo en apagones" disabled><option>1 a 2 horas</option><option>3 a 4 horas</option><option>5 a 8 horas</option><option>Más de 8 horas</option><option>No lo sé</option></select></div>
+            <div class="field full"><label for="comentarios-solar">Comentarios</label><textarea id="comentarios-solar" name="Comentarios" placeholder="Cuéntenos cualquier necesidad especial"></textarea></div>
+            <button class="btn btn-green full">Enviar cotización por WhatsApp</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="section soft"><div class="container"><div class="card form-card"><span class="eyebrow">Agua con energía solar</span><h2>Cotice bombeo solar</h2><form class="form-grid" data-quote-form="bombeo solar">
+      <div class="field"><label>Ubicación *</label><input name="Ubicación" required></div><div class="field"><label>Profundidad del pozo</label><input name="Profundidad del pozo"></div><div class="field"><label>Distancia horizontal</label><input name="Distancia horizontal"></div><div class="field"><label>Altura de descarga</label><input name="Altura de descarga"></div><div class="field"><label>Cantidad de agua requerida</label><input name="Agua requerida"></div><div class="field"><label>Horas de bombeo</label><input name="Horas de bombeo"></div><div class="field full"><label>Uso del agua</label><input name="Uso del agua" placeholder="Riego, consumo, ganado..."></div><div class="field full"><label>Comentarios</label><textarea name="Comentarios"></textarea></div><button class="btn btn-green full">Enviar cotización por WhatsApp</button>
+    </form></div></div></section>
+  </main>
+  <div data-footer></div><script src="js/app.js"></script><script src="js/carrito.js"></script><script src="js/ubicaciones.js"></script><script src="js/cotizacion.js"></script>
+</body></html>

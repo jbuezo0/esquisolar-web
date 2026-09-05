@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Tienda | EsquiSolar</title>
+  <meta name="description" content="Catálogo de paneles, baterías, inversores, controladores, iluminación y refrigeración solar.">
+  <link rel="icon" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/brand.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <div data-header></div>
+  <main id="contenido">
+    <section class="page-hero"><div class="container"><span class="eyebrow">Tienda EsquiSolar</span><h1>Equipos para cada proyecto solar</h1><p>Consulte nuestros equipos, capacidades y precios. Las existencias se confirman antes de comprar.</p></div></section>
+    <section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">Tienda</span><h2>Equipos y accesorios</h2></div><p>Busque el equipo que necesita y agréguelo al carrito.</p></div><div class="toolbar"><div class="field"><label for="search">Buscar equipos</label><input id="search" data-search type="search" placeholder="Ej. panel 550 W, batería, código..."></div><div class="field"><label for="category">Categoría</label><select id="category" data-category><option value="">Todas</option></select></div><div class="field"><label for="sort">Ordenar precio</label><select id="sort" data-sort><option value="">Relevancia</option><option value="asc">Menor a mayor</option><option value="desc">Mayor a menor</option></select></div></div><div class="grid grid-3" data-product-grid></div></div></section>
+  </main>
+  <div data-footer></div>
+  <div class="modal" data-product-modal><div class="modal-panel"><div class="modal-head"><div data-product-detail></div><button class="icon-button" onclick="document.querySelector('[data-product-modal]').classList.remove('open')" aria-label="Cerrar">×</button></div></div></div>
+  <script src="js/app.js"></script>
+  <script src="js/carrito.js"></script>
+</body>
+</html>

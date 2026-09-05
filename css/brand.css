@@ -1,0 +1,70 @@
+.brand-logo {
+  width: 52px;
+  height: 48px;
+  object-fit: cover;
+  object-position: center 42%;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.footer-logo {
+  display: block;
+  width: min(220px, 100%);
+  height: auto;
+  border-radius: 18px;
+  background: #fff;
+}
+
+.footer span { display: block; margin: 10px 0; }
+.footer h4 { margin-bottom: 14px; }
+[hidden] { display: none !important; }
+.form-section { border: 1px solid #dce5ed; border-radius: 16px; padding: 20px; margin: 4px 0; }
+.form-section legend { padding: 0 8px; color: #071d38; font-weight: 850; font-size: 1.05rem; }
+.field-help { margin-top: 0; color: #607087; }
+.appliance-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 10px; }
+.check-card { display: flex; align-items: center; gap: 10px; min-height: 50px; padding: 11px 13px; border: 1px solid #dce5ed; border-radius: 12px; background: #f8fbfd; cursor: pointer; }
+.check-card:has(input:checked) { border-color: #19a66a; background: #eaf8f1; }
+.check-card input { width: 20px; height: 20px; accent-color: #19a66a; }
+.other-equipment { margin-top: 16px; }
+.first-question { padding: 16px; border-radius: 14px; background: #eef7fc; border: 1px solid #b9dceb; }
+.first-question label { color: #071d38; font-size: 1rem; }
+.admin-page { min-height: 100vh; background: linear-gradient(145deg,#eef7fc,#fff8dc); }
+.admin-page input,.admin-page textarea,.admin-page select { pointer-events: auto !important; user-select: text !important; -webkit-user-select: text !important; touch-action: manipulation; caret-color: #071d38; position: relative; z-index: 1; }
+.admin-page input:focus,.admin-page textarea:focus,.admin-page select:focus { outline: 3px solid rgba(12,118,170,.25); border-color: #0876aa; }
+.admin-shell { width: min(1180px,calc(100% - 32px)); margin: auto; padding: 48px 0; }
+.admin-login { width: min(460px,100%); margin: 8vh auto 0; text-align: center; }
+.admin-login img { display: block; margin: 0 auto 12px; }
+.admin-login h1 { margin: 8px 0; color: #071d38; }
+.admin-login form { display: grid; gap: 16px; margin-top: 22px; text-align: left; }
+.admin-error { min-height: 24px; margin: 0; color: #b42318; font-weight: 700; text-align: center; }
+.admin-heading { display: flex; justify-content: space-between; align-items: end; gap: 24px; margin-bottom: 28px; }
+.admin-heading h1 { margin: 5px 0; color: #071d38; font-size: clamp(2rem,5vw,3.4rem); }
+.admin-heading p { margin: 0; color: #607087; }
+.admin-layout { display: grid; grid-template-columns: minmax(0,.9fr) minmax(0,1.1fr); gap: 24px; align-items: start; }
+.admin-form { display: grid; gap: 16px; }
+.admin-form h2,.admin-products h2 { margin: 0; color: #071d38; }
+.admin-form small { color: #607087; }
+.image-preview { min-height: 210px; border: 2px dashed #b9cbd9; border-radius: 16px; background: #f4f8fb; display: grid; place-items: center; overflow: hidden; color: #607087; }
+.image-preview img { width: 100%; height: 250px; object-fit: contain; background: #fff; }
+.admin-status { min-height: 24px; margin: 0; color: #08704b; font-weight: 800; }
+.admin-form button[disabled] { cursor: progress; opacity: .72; transform: none; }
+.admin-list-head { display: flex; justify-content: space-between; gap: 18px; align-items: start; }
+.admin-list-head p { margin: 4px 0 18px; color: #607087; }
+.admin-list-head > strong { min-width: 38px; height: 38px; border-radius: 999px; display: grid; place-items: center; background: #fff2bf; color: #071d38; }
+.admin-product-row { display: grid; grid-template-columns: 72px 1fr auto; align-items: center; gap: 14px; padding: 13px 0; border-top: 1px solid #dce5ed; }
+.admin-product-row img { width: 72px; height: 72px; object-fit: cover; border-radius: 12px; background: #eef3f7; }
+.admin-product-row strong,.admin-product-row span { display: block; }
+.admin-product-row span { color: #0876aa; font-weight: 800; }
+@media(max-width:800px){.admin-layout{grid-template-columns:1fr}.admin-heading{align-items:start;flex-direction:column}}
+@media(max-width:520px){.admin-shell{width:min(100% - 20px,1180px);padding:22px 0}.admin-login,.admin-form,.admin-products{padding:20px}.admin-heading .actions{width:100%}.admin-heading .btn{flex:1}}
+
+@media (max-width: 900px) { .compact-grid { grid-template-columns: 1fr 1fr; } }
+
+@media (max-width: 620px) {
+  .brand-logo {
+    width: 44px;
+    height: 42px;
+  }
+  .appliance-grid, .compact-grid { grid-template-columns: 1fr; }
+  .form-section { padding: 16px 12px; }
+}
