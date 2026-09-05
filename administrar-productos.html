@@ -15,8 +15,9 @@
       <img src="assets/images/logo-esquisolar-icon.webp" alt="EsquiSolar" width="72" height="66">
       <span class="eyebrow">Acceso privado</span>
       <h1 data-login-title>Administrar productos</h1>
-      <p data-login-help>Ingrese su clave para continuar.</p>
+      <p data-login-help>Ingrese con la cuenta administrativa de EsquiSolar.</p>
       <form data-login-form>
+        <div class="field"><label for="admin-email">Correo</label><input id="admin-email" type="email" value="esquisolar@gmail.com" autocomplete="username" required></div>
         <div class="field"><label for="admin-password">Clave de acceso</label><input id="admin-password" type="password" minlength="6" autocomplete="current-password" inputmode="text" autofocus required></div>
         <button class="btn btn-primary full" type="submit">Ingresar</button>
         <p class="admin-error" data-login-error role="alert"></p>
@@ -24,7 +25,7 @@
     </section>
 
     <section class="admin-workspace" data-admin-workspace hidden>
-      <header class="admin-heading"><div><span class="eyebrow">Panel privado</span><h1>Administrar productos</h1><p>Los productos guardados aparecen automáticamente en el catálogo de este navegador.</p></div><div class="actions"><a class="btn btn-outline" href="productos.html">Ver catálogo</a><button class="btn btn-dark" type="button" data-logout>Salir</button></div></header>
+      <header class="admin-heading"><div><span class="eyebrow">Panel privado</span><h1>Administrar productos</h1><p>Los productos guardados aparecen automáticamente para todos los visitantes.</p></div><div class="actions"><a class="btn btn-outline" href="productos.html">Ver catálogo</a><button class="btn btn-dark" type="button" data-logout>Salir</button></div></header>
       <div class="admin-layout">
         <form class="card admin-form" data-product-form>
           <h2>Agregar producto</h2>
@@ -41,6 +42,8 @@
       </div>
     </section>
   </main>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js"></script>
   <script src="js/admin-productos.js"></script>
 </body>
 </html>
