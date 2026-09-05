@@ -74,3 +74,64 @@
   .appliance-grid, .compact-grid { grid-template-columns: 1fr; }
   .form-section { padding: 16px 12px; }
 }
+
+/* Inicio inspirado en la identidad visual del sitio original de EsquiSolar */
+.home-reference .topbar { display: none; }
+.home-reference .site-header { background: #fff; border: 0; }
+.home-reference .nav { height: 86px; }
+.home-reference .nav-links a { color: #dc8400; }
+.home-reference .nav-links a:hover,
+.home-reference .nav-links a[aria-current=page] { color: #57bd3c; }
+.home-reference .nav-actions .btn-primary { background: #62c443; color: #fff; box-shadow: 0 10px 25px rgba(80,184,59,.25); }
+.home-reference .home-hero { min-height: calc(100vh - 86px); display: grid; place-items: end center; position: relative; isolation: isolate; color: #fff; background: url('../assets/images/hero-solar.png') center/cover no-repeat; }
+.home-reference .home-hero::before { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(180deg,rgba(3,29,62,.5),rgba(3,25,55,.8) 65%,rgba(3,22,49,.94)); }
+.home-hero-content { text-align: center; padding: clamp(150px,24vh,260px) 0 55px; }
+.home-kicker { color: #6bd54d; font-weight: 900; text-transform: uppercase; letter-spacing: .22em; font-size: .78rem; }
+.home-hero h1 { margin: 20px auto; max-width: 850px; font-size: clamp(3rem,7vw,6.5rem); line-height: .98; letter-spacing: -.055em; }
+.home-hero h1 span { background: linear-gradient(90deg,#5fd13e,#ff9b00); color: transparent; -webkit-background-clip: text; background-clip: text; }
+.home-hero p { max-width: 720px; margin: 0 auto; color: #e1eaf4; font-size: 1.08rem; }
+.home-hero-actions { justify-content: center; }
+.home-light-button { background: #fff; color: #092442; }
+.home-stats { display: grid; grid-template-columns: repeat(3,1fr); max-width: 760px; margin: 65px auto 0; }
+.home-stats div { padding: 0 25px; border-right: 1px solid rgba(255,255,255,.25); }
+.home-stats div:last-child { border: 0; }
+.home-stats strong,.home-stats span { display: block; }
+.home-stats strong { font-size: clamp(1.35rem,3vw,2rem); }
+.home-stats span { color: #aebed0; font-size: .72rem; font-weight: 900; text-transform: uppercase; letter-spacing: .16em; }
+.home-service-pair { display: grid; grid-template-columns: repeat(2,1fr); border-top: 4px solid #62c443; }
+.home-service-card { min-height: 420px; padding: clamp(45px,7vw,90px); color: #fff; background: #37404c; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; }
+.home-service-business { background: #08131f; }
+.home-service-icon { width: 72px; height: 72px; border-radius: 22px; display: grid; place-items: center; background: rgba(98,196,67,.15); color: #71d950; font-size: 2.2rem; margin-bottom: 24px; }
+.home-service-card > span { color: #69d34a; font-size: .75rem; font-weight: 900; text-transform: uppercase; letter-spacing: .18em; }
+.home-service-card h2 { margin: 8px 0 15px; font-size: clamp(2rem,4vw,3.25rem); line-height: 1.05; }
+.home-service-card p { max-width: 560px; color: #c7d0da; }
+.home-service-card a { color: #fff; font-weight: 850; margin-top: 18px; border-bottom: 2px solid #62c443; padding-bottom: 5px; }
+.home-about { background: #fff; }
+.home-about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(45px,7vw,100px); align-items: center; }
+.home-about-visual { position: relative; min-height: 580px; }
+.home-about-visual img { width: 100%; height: 580px; object-fit: cover; border-radius: 0 90px 0 0; }
+.home-experience { position: absolute; right: -25px; bottom: 35px; background: #62c443; color: #fff; padding: 24px 30px; box-shadow: 0 18px 35px rgba(22,110,25,.24); }
+.home-experience strong,.home-experience span { display: block; }
+.home-experience strong { font-size: 1.5rem; }
+.home-about-copy h2,.home-centered-heading h2,.home-store-band h2 { color: #0a2746; font-size: clamp(2.35rem,5vw,4.4rem); line-height: 1.03; letter-spacing: -.04em; margin: 12px 0 24px; }
+.home-about-copy > p { color: #64748b; font-size: 1.05rem; }
+.home-checks { list-style: none; padding: 0; margin: 25px 0 32px; display: grid; gap: 14px; }
+.home-checks li { font-weight: 750; color: #18334e; padding-left: 30px; position: relative; }
+.home-checks li::before { content: '✓'; position: absolute; left: 0; color: #58bd3e; font-weight: 950; }
+.home-solutions { background: #f3f7fa; }
+.home-centered-heading { max-width: 760px; text-align: center; margin: 0 auto 45px; }
+.home-centered-heading p { color: #64748b; }
+.home-solution-card { background: #fff; border: 1px solid #dce6ee; padding: 32px; min-height: 280px; box-shadow: 0 18px 45px rgba(7,29,56,.07); }
+.home-solution-card > span { display: inline-grid; place-items: center; width: 48px; height: 48px; border-radius: 50%; background: #e9f8e5; color: #4cab34; font-weight: 900; }
+.home-solution-card h3 { color: #092746; font-size: 1.55rem; margin: 25px 0 8px; }
+.home-solution-card p { color: #64748b; }
+.home-solution-card a { color: #d97d00; font-weight: 850; }
+.home-store-band { background: linear-gradient(115deg,#071d38,#0a3960); color: #fff; padding: 75px 0; }
+.home-store-grid { display: grid; grid-template-columns: 1.4fr .6fr; gap: 45px; align-items: center; }
+.home-store-band h2 { color: #fff; max-width: 720px; }
+.home-store-band p { max-width: 700px; color: #c7d6e5; }
+.home-store-band .actions { justify-content: flex-end; }
+.home-outline-light { color: #fff; border: 1px solid rgba(255,255,255,.35); }
+.home-faq details { max-width: 900px; margin-left: auto; margin-right: auto; }
+@media(max-width:900px){.home-reference .nav{height:76px}.home-reference .nav-links{top:76px}.home-service-pair,.home-about-grid,.home-store-grid{grid-template-columns:1fr}.home-store-band .actions{justify-content:flex-start}.home-about-visual{min-height:480px}.home-about-visual img{height:480px}.home-experience{right:15px}}
+@media(max-width:620px){.home-reference .nav{height:68px}.home-reference .nav-links{top:68px}.home-reference .home-hero{min-height:720px}.home-hero-content{padding:120px 0 38px}.home-hero h1{font-size:3.25rem}.home-hero p{font-size:1rem}.home-stats{margin-top:42px}.home-stats div{padding:0 8px}.home-stats strong{font-size:1.08rem}.home-stats span{font-size:.58rem;letter-spacing:.08em}.home-service-pair{grid-template-columns:1fr}.home-service-card{min-height:370px;padding:45px 24px}.home-about-visual,.home-about-visual img{min-height:380px;height:380px}.home-about-visual img{border-radius:0 55px 0 0}.home-about-copy h2,.home-centered-heading h2,.home-store-band h2{font-size:2.45rem}}
