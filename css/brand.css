@@ -58,6 +58,9 @@
 .admin-product-row img { width: 72px; height: 72px; object-fit: cover; border-radius: 12px; background: #eef3f7; }
 .admin-product-row strong,.admin-product-row span { display: block; }
 .admin-product-row span { color: #0876aa; font-weight: 800; }
+.admin-row-actions,.admin-form-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.admin-row-actions .btn { padding: 9px 12px; }
+.admin-row-actions .icon-button { color: #b42318; font-size: 1.35rem; }
 @media(max-width:800px){.admin-layout{grid-template-columns:1fr}.admin-heading{align-items:start;flex-direction:column}}
 @media(max-width:520px){.admin-shell{width:min(100% - 20px,1180px);padding:22px 0}.admin-login,.admin-form,.admin-products{padding:20px}.admin-heading .actions{width:100%}.admin-heading .btn{flex:1}}
 
