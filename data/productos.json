@@ -484,5 +484,93 @@
     "disponibilidad": "Consultar existencias",
     "destacado": false,
     "etiqueta": ""
+  },
+  {
+    "codigo": "REF-001",
+    "nombre": "Congelador solar AC/DC 118 L",
+    "nombre_resumido": "Congelador solar AC/DC 118 L",
+    "categoria": "Refrigeración solar",
+    "marca": "Sunshine Solar",
+    "modelo": "",
+    "descripcion": "Congelador solar de 118 litros con adaptador AC/DC incluido. Diseñado para conservar alimentos y productos a temperaturas entre -20 °C y 0 °C.",
+    "especificaciones": [
+      "Capacidad: 118 L",
+      "Temperatura: -20 °C a 0 °C",
+      "Medidas: 620 × 605 × 950 mm",
+      "Adaptador AC/DC incluido"
+    ],
+    "precio": null,
+    "precio_anterior": null,
+    "imagen": "assets/images/catalogo/publicidad-congelador-esquisolar-118l.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "REF-002",
+    "nombre": "Congelador solar AC/DC 168 L",
+    "nombre_resumido": "Congelador solar AC/DC 168 L",
+    "categoria": "Refrigeración solar",
+    "marca": "Sunshine Solar",
+    "modelo": "",
+    "descripcion": "Congelador solar de 168 litros con adaptador AC/DC incluido. Diseñado para conservar alimentos y productos a temperaturas entre -20 °C y 0 °C.",
+    "especificaciones": [
+      "Capacidad: 168 L",
+      "Temperatura: -20 °C a 0 °C",
+      "Medidas: 820 × 605 × 950 mm",
+      "Adaptador AC/DC incluido"
+    ],
+    "precio": null,
+    "precio_anterior": null,
+    "imagen": "assets/images/catalogo/publicidad-congelador-esquisolar-168l.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "REF-003",
+    "nombre": "Congelador solar AC/DC 218 L",
+    "nombre_resumido": "Congelador solar AC/DC 218 L",
+    "categoria": "Refrigeración solar",
+    "marca": "Sunshine Solar",
+    "modelo": "",
+    "descripcion": "Congelador solar de 218 litros con adaptador AC/DC incluido. Diseñado para conservar alimentos y productos a temperaturas entre -20 °C y 0 °C.",
+    "especificaciones": [
+      "Capacidad: 218 L",
+      "Temperatura: -20 °C a 0 °C",
+      "Medidas: 970 × 605 × 950 mm",
+      "Adaptador AC/DC incluido"
+    ],
+    "precio": null,
+    "precio_anterior": null,
+    "imagen": "assets/images/catalogo/publicidad-congelador-esquisolar-218l.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "REF-004",
+    "nombre": "Congelador solar AC/DC 318 L",
+    "nombre_resumido": "Congelador solar AC/DC 318 L",
+    "categoria": "Refrigeración solar",
+    "marca": "Sunshine Solar",
+    "modelo": "",
+    "descripcion": "Congelador solar de 318 litros con adaptador AC/DC incluido. Diseñado para conservar alimentos y productos a temperaturas entre -20 °C y 0 °C.",
+    "especificaciones": [
+      "Capacidad: 318 L",
+      "Temperatura: -20 °C a 0 °C",
+      "Medidas: 1216 × 681 × 950 mm",
+      "Adaptador AC/DC incluido"
+    ],
+    "precio": null,
+    "precio_anterior": null,
+    "imagen": "assets/images/catalogo/publicidad-congelador-esquisolar-318l.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": "Nuevo"
   }
 ]

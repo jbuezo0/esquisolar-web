@@ -31,6 +31,18 @@
   font-size: clamp(1.4rem, 2vw, 1.65rem);
 }
 
+.price-consult {
+  color: #0876aa;
+  font-size: clamp(1.2rem, 1.8vw, 1.45rem);
+}
+
+.product-card:has(img[src*="publicidad-congelador"]) .product-image {
+  aspect-ratio: 3 / 2;
+  height: auto;
+  min-height: 250px;
+  padding: 8px;
+}
+
 .product-description {
   display: -webkit-box;
   margin: 0 0 4px;
@@ -43,6 +55,10 @@
   .product-image {
     height: 260px;
     padding: 12px;
+  }
+
+  .product-card:has(img[src*="publicidad-congelador"]) .product-image {
+    min-height: 220px;
   }
 
   .product-body {
