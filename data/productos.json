@@ -180,6 +180,66 @@
     "etiqueta": ""
   },
   {
+    "codigo": "BAT-003",
+    "nombre": "Batería de gel Sonne 12 V 100 Ah",
+    "nombre_resumido": "Batería de gel Sonne 12 V 100 Ah",
+    "categoria": "Baterías",
+    "marca": "Sonne",
+    "modelo": "",
+    "descripcion": "Batería de gel Sonne 12 V 100 Ah. Batería sellada tipo gel para almacenamiento de energía en sistemas solares y respaldo. Capacidad nominal indicada en el nombre; confirmar ciclos, peso y garantía según el modelo entregado.",
+    "especificaciones": [
+      "Voltaje: 12 V",
+      "Capacidad: 100 Ah"
+    ],
+    "precio": 1500,
+    "precio_anterior": null,
+    "imagen": "assets/productos/baterias/bateria-sonne-100ah.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "BAT-004",
+    "nombre": "Batería de gel Sonne 12 V 150 Ah",
+    "nombre_resumido": "Batería de gel Sonne 12 V 150 Ah",
+    "categoria": "Baterías",
+    "marca": "Sonne",
+    "modelo": "",
+    "descripcion": "Batería de gel Sonne 12 V 150 Ah. Batería sellada tipo gel para almacenamiento de energía en sistemas solares y respaldo. Capacidad nominal indicada en el nombre; confirmar ciclos, peso y garantía según el modelo entregado.",
+    "especificaciones": [
+      "Voltaje: 12 V",
+      "Capacidad: 150 Ah"
+    ],
+    "precio": 1950,
+    "precio_anterior": null,
+    "imagen": "assets/productos/baterias/bateria-sonne-150ah.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "BAT-005",
+    "nombre": "Batería de gel Sonne 12 V 200 Ah",
+    "nombre_resumido": "Batería de gel Sonne 12 V 200 Ah",
+    "categoria": "Baterías",
+    "marca": "Sonne",
+    "modelo": "",
+    "descripcion": "Batería de gel Sonne 12 V 200 Ah. Batería sellada tipo gel para almacenamiento de energía en sistemas solares y respaldo. Capacidad nominal indicada en el nombre; confirmar ciclos, peso y garantía según el modelo entregado.",
+    "especificaciones": [
+      "Voltaje: 12 V",
+      "Capacidad: 200 Ah"
+    ],
+    "precio": 2600,
+    "precio_anterior": null,
+    "imagen": "assets/productos/baterias/bateria-sonne-200ah.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
     "codigo": "PWM-004",
     "nombre": "Controlador de carga PWM LDSOLAR 10 A",
     "nombre_resumido": "Controlador de carga PWM LDSOLAR 10 A",
