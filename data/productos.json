@@ -486,6 +486,46 @@
     "etiqueta": ""
   },
   {
+    "codigo": "PWM-010",
+    "nombre": "Controlador de carga PWM PowMr 30 A",
+    "nombre_resumido": "Controlador de carga PWM PowMr 30 A",
+    "categoria": "Controladores PWM",
+    "marca": "PowMr",
+    "modelo": "",
+    "descripcion": "Controlador de carga PWM PowMr de 30 A para controlar la carga de baterías desde paneles solares. Seleccione el amperaje y voltaje adecuados para su sistema fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 30 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 375,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/controlador-powmr-pwm-30a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PWM-011",
+    "nombre": "Controlador de carga PWM PowMr 60 A",
+    "nombre_resumido": "Controlador de carga PWM PowMr 60 A",
+    "categoria": "Controladores PWM",
+    "marca": "PowMr",
+    "modelo": "",
+    "descripcion": "Controlador de carga PWM PowMr de 60 A para controlar la carga de baterías desde paneles solares. Seleccione el amperaje y voltaje adecuados para su sistema fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 60 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 595,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/controlador-powmr-pwm-60a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": "Nuevo"
+  },
+  {
     "codigo": "REF-001",
     "nombre": "Congelador solar AC/DC 118 L",
     "nombre_resumido": "Congelador solar AC/DC 118 L",
