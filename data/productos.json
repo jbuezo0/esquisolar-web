@@ -240,6 +240,66 @@
     "etiqueta": ""
   },
   {
+    "codigo": "PWM-001",
+    "nombre": "Controlador de carga PWM Sunshine Solar 10 A",
+    "nombre_resumido": "Controlador de carga PWM Sunshine Solar 10 A",
+    "categoria": "Controladores PWM",
+    "marca": "Sunshine Solar",
+    "modelo": "",
+    "descripcion": "Controlador de carga PWM Sunshine Solar 10 A. Regulador para controlar la carga de baterías desde paneles solares. Seleccione el amperaje y voltaje adecuados para su sistema fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 10 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 125,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/controlador-sunshine-pwm-10-20a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-002",
+    "nombre": "Controlador de carga PWM Sunshine Solar 20 A",
+    "nombre_resumido": "Controlador de carga PWM Sunshine Solar 20 A",
+    "categoria": "Controladores PWM",
+    "marca": "Sunshine Solar",
+    "modelo": "",
+    "descripcion": "Controlador de carga PWM Sunshine Solar 20 A. Regulador para controlar la carga de baterías desde paneles solares. Seleccione el amperaje y voltaje adecuados para su sistema fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 20 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 175,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/controlador-sunshine-pwm-10-20a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-003",
+    "nombre": "Controlador de carga PWM Sunshine Solar 30 A",
+    "nombre_resumido": "Controlador de carga PWM Sunshine Solar 30 A",
+    "categoria": "Controladores PWM",
+    "marca": "Sunshine Solar",
+    "modelo": "",
+    "descripcion": "Controlador de carga PWM Sunshine Solar 30 A. Regulador para controlar la carga de baterías desde paneles solares. Seleccione el amperaje y voltaje adecuados para su sistema fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 30 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 205,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/controlador-sunshine-pwm-30a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
     "codigo": "PWM-004",
     "nombre": "Controlador de carga PWM LDSOLAR 10 A",
     "nombre_resumido": "Controlador de carga PWM LDSOLAR 10 A",
