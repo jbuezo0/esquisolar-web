@@ -1,1 +1,302 @@
-[]
+[
+  {
+    "codigo": "FOC-001",
+    "nombre": "Foco LED Suki 12 V 7 W",
+    "nombre_resumido": "Foco LED Suki 12 V 7 W",
+    "categoria": "Focos LED",
+    "marca": "Suki",
+    "modelo": "",
+    "descripcion": "Foco LED Suki 12 V 7 W. Solución de iluminación eficiente para sistemas de corriente continua. Ideal para viviendas, comercios o instalaciones solares compatibles con el voltaje indicado.",
+    "especificaciones": [
+      "Potencia: 7 W",
+      "Voltaje: 12 V"
+    ],
+    "precio": 13,
+    "precio_anterior": null,
+    "imagen": "assets/productos/focos/foco-suki-7w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "FOC-002",
+    "nombre": "Foco LED Suki 12 V 9 W",
+    "nombre_resumido": "Foco LED Suki 12 V 9 W",
+    "categoria": "Focos LED",
+    "marca": "Suki",
+    "modelo": "",
+    "descripcion": "Foco LED Suki 12 V 9 W. Solución de iluminación eficiente para sistemas de corriente continua. Ideal para viviendas, comercios o instalaciones solares compatibles con el voltaje indicado.",
+    "especificaciones": [
+      "Potencia: 9 W",
+      "Voltaje: 12 V"
+    ],
+    "precio": 17,
+    "precio_anterior": null,
+    "imagen": "assets/productos/focos/foco-suki-9w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "FOC-003",
+    "nombre": "Foco LED multivoltaje Nuevasa 12–85 V 3 W",
+    "nombre_resumido": "Foco LED multivoltaje Nuevasa 12–85 V 3 W",
+    "categoria": "Focos LED",
+    "marca": "Nuevasa",
+    "modelo": "",
+    "descripcion": "Foco LED multivoltaje Nuevasa 12–85 V 3 W. Solución de iluminación eficiente para sistemas de corriente continua. Ideal para viviendas, comercios o instalaciones solares compatibles con el voltaje indicado.",
+    "especificaciones": [
+      "Potencia: 3 W",
+      "Voltaje: 85 V"
+    ],
+    "precio": 16,
+    "precio_anterior": null,
+    "imagen": "assets/productos/focos/foco-nuevasa-3w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "FOC-004",
+    "nombre": "Foco LED multivoltaje Nuevasa 12–85 V 5 W",
+    "nombre_resumido": "Foco LED multivoltaje Nuevasa 12–85 V 5 W",
+    "categoria": "Focos LED",
+    "marca": "Nuevasa",
+    "modelo": "",
+    "descripcion": "Foco LED multivoltaje Nuevasa 12–85 V 5 W. Solución de iluminación eficiente para sistemas de corriente continua. Ideal para viviendas, comercios o instalaciones solares compatibles con el voltaje indicado.",
+    "especificaciones": [
+      "Potencia: 5 W",
+      "Voltaje: 85 V"
+    ],
+    "precio": 20,
+    "precio_anterior": null,
+    "imagen": "assets/productos/focos/foco-nuevasa-5w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "FOC-005",
+    "nombre": "Foco LED multivoltaje Nuevasa 12–85 V 7 W",
+    "nombre_resumido": "Foco LED multivoltaje Nuevasa 12–85 V 7 W",
+    "categoria": "Focos LED",
+    "marca": "Nuevasa",
+    "modelo": "",
+    "descripcion": "Foco LED multivoltaje Nuevasa 12–85 V 7 W. Solución de iluminación eficiente para sistemas de corriente continua. Ideal para viviendas, comercios o instalaciones solares compatibles con el voltaje indicado.",
+    "especificaciones": [
+      "Potencia: 7 W",
+      "Voltaje: 85 V"
+    ],
+    "precio": 23,
+    "precio_anterior": null,
+    "imagen": "assets/productos/focos/foco-nuevasa-7w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "FOC-006",
+    "nombre": "Foco LED multivoltaje Nuevasa 12–85 V 9 W",
+    "nombre_resumido": "Foco LED multivoltaje Nuevasa 12–85 V 9 W",
+    "categoria": "Focos LED",
+    "marca": "Nuevasa",
+    "modelo": "",
+    "descripcion": "Foco LED multivoltaje Nuevasa 12–85 V 9 W. Solución de iluminación eficiente para sistemas de corriente continua. Ideal para viviendas, comercios o instalaciones solares compatibles con el voltaje indicado.",
+    "especificaciones": [
+      "Potencia: 9 W",
+      "Voltaje: 85 V"
+    ],
+    "precio": 27,
+    "precio_anterior": null,
+    "imagen": "assets/productos/focos/foco-nuevasa-9w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "FOC-007",
+    "nombre": "Foco LED multivoltaje Nuevasa 12–85 V 12 W",
+    "nombre_resumido": "Foco LED multivoltaje Nuevasa 12–85 V 12 W",
+    "categoria": "Focos LED",
+    "marca": "Nuevasa",
+    "modelo": "",
+    "descripcion": "Foco LED multivoltaje Nuevasa 12–85 V 12 W. Solución de iluminación eficiente para sistemas de corriente continua. Ideal para viviendas, comercios o instalaciones solares compatibles con el voltaje indicado.",
+    "especificaciones": [
+      "Potencia: 12 W",
+      "Voltaje: 85 V"
+    ],
+    "precio": 32,
+    "precio_anterior": null,
+    "imagen": "assets/productos/focos/foco-nuevasa-12w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "BAT-001",
+    "nombre": "Batería de gel Sunlight 12 V 30 Ah",
+    "nombre_resumido": "Batería de gel Sunlight 12 V 30 Ah",
+    "categoria": "Baterías",
+    "marca": "Sunlight",
+    "modelo": "",
+    "descripcion": "Batería de gel Sunlight 12 V 30 Ah. Batería sellada tipo gel para almacenamiento de energía en sistemas solares y respaldo. Capacidad nominal indicada en el nombre; confirmar ciclos, peso y garantía según el modelo entregado.",
+    "especificaciones": [
+      "Voltaje: 12 V",
+      "Capacidad: 30 Ah"
+    ],
+    "precio": 460,
+    "precio_anterior": null,
+    "imagen": "assets/productos/baterias/bateria-sunlight-30ah.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "BAT-002",
+    "nombre": "Batería de gel Sunlight 12 V 60 Ah",
+    "nombre_resumido": "Batería de gel Sunlight 12 V 60 Ah",
+    "categoria": "Baterías",
+    "marca": "Sunlight",
+    "modelo": "",
+    "descripcion": "Batería de gel Sunlight 12 V 60 Ah. Batería sellada tipo gel para almacenamiento de energía en sistemas solares y respaldo. Capacidad nominal indicada en el nombre; confirmar ciclos, peso y garantía según el modelo entregado.",
+    "especificaciones": [
+      "Voltaje: 12 V",
+      "Capacidad: 60 Ah"
+    ],
+    "precio": 725,
+    "precio_anterior": null,
+    "imagen": "assets/productos/baterias/bateria-sunlight-60ah.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-004",
+    "nombre": "Controlador de carga PWM LDSOLAR 10 A",
+    "nombre_resumido": "Controlador de carga PWM LDSOLAR 10 A",
+    "categoria": "Controladores PWM",
+    "marca": "LDSOLAR",
+    "modelo": "SD2410C",
+    "descripcion": "Controlador de carga PWM LDSOLAR 10 A. Regulador PWM para controlar la carga de baterías desde paneles solares. Seleccionar el amperaje y voltaje adecuados para el arreglo fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 10 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 185,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/ldsolar-pwm-10a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-005",
+    "nombre": "Controlador de carga PWM LDSOLAR 20 A",
+    "nombre_resumido": "Controlador de carga PWM LDSOLAR 20 A",
+    "categoria": "Controladores PWM",
+    "marca": "LDSOLAR",
+    "modelo": "SD2420C",
+    "descripcion": "Controlador de carga PWM LDSOLAR 20 A. Regulador PWM para controlar la carga de baterías desde paneles solares. Seleccionar el amperaje y voltaje adecuados para el arreglo fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 20 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 225,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/ldsolar-pwm-20a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-006",
+    "nombre": "Controlador de carga PWM LDSOLAR 30 A",
+    "nombre_resumido": "Controlador de carga PWM LDSOLAR 30 A",
+    "categoria": "Controladores PWM",
+    "marca": "LDSOLAR",
+    "modelo": "SD2430C",
+    "descripcion": "Controlador de carga PWM LDSOLAR 30 A. Regulador PWM para controlar la carga de baterías desde paneles solares. Seleccionar el amperaje y voltaje adecuados para el arreglo fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 30 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 285,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/ldsolar-pwm-30a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-007",
+    "nombre": "Controlador de carga PWM LDSOLAR 40 A",
+    "nombre_resumido": "Controlador de carga PWM LDSOLAR 40 A",
+    "categoria": "Controladores PWM",
+    "marca": "LDSOLAR",
+    "modelo": "SD2440S",
+    "descripcion": "Controlador de carga PWM LDSOLAR 40 A. Regulador PWM para controlar la carga de baterías desde paneles solares. Seleccionar el amperaje y voltaje adecuados para el arreglo fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 40 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 390,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/ldsolar-pwm-40a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-008",
+    "nombre": "Controlador de carga PWM LDSOLAR 50 A",
+    "nombre_resumido": "Controlador de carga PWM LDSOLAR 50 A",
+    "categoria": "Controladores PWM",
+    "marca": "LDSOLAR",
+    "modelo": "SD2450C",
+    "descripcion": "Controlador de carga PWM LDSOLAR 50 A. Regulador PWM para controlar la carga de baterías desde paneles solares. Seleccionar el amperaje y voltaje adecuados para el arreglo fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 50 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 490,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/ldsolar-pwm-50a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "PWM-009",
+    "nombre": "Controlador de carga PWM LDSOLAR 60 A",
+    "nombre_resumido": "Controlador de carga PWM LDSOLAR 60 A",
+    "categoria": "Controladores PWM",
+    "marca": "LDSOLAR",
+    "modelo": "SD2460C",
+    "descripcion": "Controlador de carga PWM LDSOLAR 60 A. Regulador PWM para controlar la carga de baterías desde paneles solares. Seleccionar el amperaje y voltaje adecuados para el arreglo fotovoltaico.",
+    "especificaciones": [
+      "Corriente: 60 A",
+      "Tecnología de carga: PWM"
+    ],
+    "precio": 550,
+    "precio_anterior": null,
+    "imagen": "assets/productos/controladores/ldsolar-pwm-60a.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  }
+]
