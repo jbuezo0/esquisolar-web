@@ -240,6 +240,72 @@
     "etiqueta": ""
   },
   {
+    "codigo": "INV-OP-001",
+    "nombre": "Inversor de onda pura MUST 12 V 1.0 kW",
+    "nombre_resumido": "Inversor de onda pura MUST 12 V 1.0 kW",
+    "categoria": "Inversores de onda pura",
+    "marca": "MUST",
+    "modelo": "PI1500 LV",
+    "descripcion": "Inversor de onda senoidal pura MUST de 1000 W para bancos de baterías de 12 V. Convierte la energía almacenada en corriente alterna estable para equipos electrónicos y cargas compatibles.",
+    "especificaciones": [
+      "Potencia nominal: 1000 W",
+      "Potencia pico: 2000 W",
+      "Entrada: 12 VDC",
+      "Salida: onda senoidal pura"
+    ],
+    "precio": 1195,
+    "precio_anterior": null,
+    "imagen": "assets/productos/inversores/inversor-must-onda-pura-1000w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "INV-OP-002",
+    "nombre": "Inversor de onda pura MUST 24 V 1.5 kW",
+    "nombre_resumido": "Inversor de onda pura MUST 24 V 1.5 kW",
+    "categoria": "Inversores de onda pura",
+    "marca": "MUST",
+    "modelo": "PI1500 LV",
+    "descripcion": "Inversor de onda senoidal pura MUST de 1500 W para bancos de baterías de 24 V. Convierte la energía almacenada en corriente alterna estable para equipos electrónicos y cargas compatibles.",
+    "especificaciones": [
+      "Potencia nominal: 1500 W",
+      "Potencia pico: 3000 W",
+      "Entrada: 24 VDC",
+      "Salida: onda senoidal pura"
+    ],
+    "precio": 1795,
+    "precio_anterior": null,
+    "imagen": "assets/productos/inversores/inversor-must-onda-pura-1500w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
+    "codigo": "INV-OP-003",
+    "nombre": "Inversor de onda pura MUST 24 V 2.0 kW",
+    "nombre_resumido": "Inversor de onda pura MUST 24 V 2.0 kW",
+    "categoria": "Inversores de onda pura",
+    "marca": "MUST",
+    "modelo": "PI1500 LV",
+    "descripcion": "Inversor de onda senoidal pura MUST de 2000 W para bancos de baterías de 24 V. Convierte la energía almacenada en corriente alterna estable para equipos electrónicos y cargas compatibles.",
+    "especificaciones": [
+      "Potencia nominal: 2000 W",
+      "Potencia pico: 4000 W",
+      "Entrada: 24 VDC",
+      "Salida: onda senoidal pura"
+    ],
+    "precio": 2095,
+    "precio_anterior": null,
+    "imagen": "assets/productos/inversores/inversor-must-onda-pura-2000w.png",
+    "garantia": "Consultar",
+    "disponibilidad": "Consultar existencias",
+    "destacado": false,
+    "etiqueta": ""
+  },
+  {
     "codigo": "PWM-001",
     "nombre": "Controlador de carga PWM Sunshine Solar 10 A",
     "nombre_resumido": "Controlador de carga PWM Sunshine Solar 10 A",
