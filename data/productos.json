@@ -1,5 +1,32 @@
 [
   {
+    "codigo": "PAN-001", "nombre": "Panel solar monocristalino Sunshine Solar 30 W", "nombre_resumido": "Panel solar Sunshine Solar 30 W", "categoria": "Paneles solares", "marca": "Sunshine Solar", "modelo": "", "descripcion": "Panel solar monocristalino Sunshine Solar de 30 W para producir energía limpia en instalaciones solares pequeñas o aisladas.", "especificaciones": ["Potencia: 30 W", "Tecnología: monocristalina"], "precio": 145, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-solar-30w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-002", "nombre": "Panel solar monocristalino Sunshine Solar 60 W", "nombre_resumido": "Panel solar Sunshine Solar 60 W", "categoria": "Paneles solares", "marca": "Sunshine Solar", "modelo": "", "descripcion": "Panel solar monocristalino Sunshine Solar de 60 W para producir energía limpia en instalaciones residenciales o aisladas.", "especificaciones": ["Potencia: 60 W", "Tecnología: monocristalina"], "precio": 200, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-solar-60w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-003", "nombre": "Panel solar monocristalino Sunshine Solar 100 W", "nombre_resumido": "Panel solar Sunshine Solar 100 W", "categoria": "Paneles solares", "marca": "Sunshine Solar", "modelo": "", "descripcion": "Panel solar monocristalino Sunshine Solar de 100 W para producir energía limpia en instalaciones residenciales o aisladas.", "especificaciones": ["Potencia: 100 W", "Tecnología: monocristalina"], "precio": 340, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-solar-100w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-004", "nombre": "Panel solar monocristalino Sunshine Solar 200 W", "nombre_resumido": "Panel solar Sunshine Solar 200 W", "categoria": "Paneles solares", "marca": "Sunshine Solar", "modelo": "", "descripcion": "Panel solar monocristalino Sunshine Solar de 200 W para producir energía limpia en instalaciones residenciales, comerciales o aisladas.", "especificaciones": ["Potencia: 200 W", "Tecnología: monocristalina"], "precio": 420, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-solar-200w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-005", "nombre": "Panel solar monocristalino Sunshine Solar 300 W", "nombre_resumido": "Panel solar Sunshine Solar 300 W", "categoria": "Paneles solares", "marca": "Sunshine Solar", "modelo": "", "descripcion": "Panel solar monocristalino Sunshine Solar de 300 W para producir energía limpia en instalaciones residenciales, comerciales o aisladas.", "especificaciones": ["Potencia: 300 W", "Tecnología: monocristalina"], "precio": 630, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-solar-300w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-006", "nombre": "Panel solar monocristalino Sunshine Solar 450 W", "nombre_resumido": "Panel solar Sunshine Solar 450 W", "categoria": "Paneles solares", "marca": "Sunshine Solar", "modelo": "", "descripcion": "Panel solar monocristalino Sunshine Solar de 450 W para producir energía limpia en instalaciones residenciales, comerciales o aisladas.", "especificaciones": ["Potencia: 450 W", "Tecnología: monocristalina"], "precio": 750, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-solar-450w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-007", "nombre": "Panel solar monocristalino Sunshine Solar 500 W", "nombre_resumido": "Panel solar Sunshine Solar 500 W", "categoria": "Paneles solares", "marca": "Sunshine Solar", "modelo": "", "descripcion": "Panel solar monocristalino Sunshine Solar de 500 W para producir energía limpia en instalaciones residenciales, comerciales o aisladas.", "especificaciones": ["Potencia: 500 W", "Tecnología: monocristalina"], "precio": 815, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-solar-500w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-008", "nombre": "Panel solar bifacial JA Solar 620 W", "nombre_resumido": "Panel solar bifacial JA Solar 620 W", "categoria": "Paneles solares", "marca": "JA Solar", "modelo": "", "descripcion": "Panel solar bifacial JA Solar de 620 W, tecnología n-type y doble vidrio para proyectos fotovoltaicos residenciales y comerciales.", "especificaciones": ["Potencia: 620 W", "Tecnología: bifacial n-type", "Doble vidrio", "132 celdas"], "precio": 1195, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-ja-solar-620w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
+    "codigo": "PAN-009", "nombre": "Panel solar bifacial JA Solar 625 W", "nombre_resumido": "Panel solar bifacial JA Solar 625 W", "categoria": "Paneles solares", "marca": "JA Solar", "modelo": "", "descripcion": "Panel solar bifacial JA Solar de 625 W para producir energía limpia en instalaciones residenciales, comerciales o aisladas.", "especificaciones": ["Potencia: 625 W", "Tecnología: bifacial"], "precio": 1245, "precio_anterior": null, "imagen": "assets/productos/paneles/panel-ja-solar-625w.png", "garantia": "Consultar", "disponibilidad": "Consultar existencias", "destacado": false, "etiqueta": "Nuevo"
+  },
+  {
     "codigo": "FOC-001",
     "nombre": "Foco LED Suki 12 V 7 W",
     "nombre_resumido": "Foco LED Suki 12 V 7 W",
