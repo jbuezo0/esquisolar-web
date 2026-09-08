@@ -5,15 +5,27 @@
 
 .product-image {
   height: clamp(220px, 25vw, 300px);
+  flex: 0 0 clamp(220px, 25vw, 300px);
   padding: 16px;
   background: #fff;
+  overflow: hidden;
+  isolation: isolate;
 }
 
 .product-image img {
-  object-fit: contain;
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain !important;
+  object-position: center;
 }
 
 .product-body {
+  position: relative;
+  z-index: 2;
+  background: #fff;
   gap: 8px;
   min-width: 0;
 }
@@ -79,6 +91,7 @@
 @media (max-width: 620px) {
   .product-image {
     height: 260px;
+    flex-basis: 260px;
     padding: 12px;
   }
 
