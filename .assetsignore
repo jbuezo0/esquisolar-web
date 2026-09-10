@@ -1,5 +1,10 @@
 .git/**
+.wrangler/**
 node_modules/**
 scripts/**
 outputs/**
 tmp/**
+.gitignore
+README.md
+wrangler.jsonc
+supabase-setup.sql
