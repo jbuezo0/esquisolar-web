@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Mi cuenta | EsquiSolar</title>
+  <meta name="description" content="Inicie sesión o cree su cuenta de EsquiSolar con Google, Facebook o correo electrónico.">
+  <link rel="icon" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/styles.css?v=14">
+  <link rel="stylesheet" href="css/brand.css">
+  <link rel="stylesheet" href="css/cuenta.css?v=1">
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <div data-header></div>
+  <main id="contenido" class="account-page">
+    <section class="account-shell">
+      <div class="account-intro">
+        <span class="eyebrow">Cuenta EsquiSolar</span>
+        <h1>Todo lo que necesita, en un solo lugar</h1>
+        <p>Ingrese para guardar sus datos y tener una experiencia más rápida al solicitar productos y cotizaciones.</p>
+        <ul class="account-benefits"><li>✓ Acceso seguro</li><li>✓ Sus datos en un solo perfil</li><li>✓ Atención personalizada</li></ul>
+      </div>
+      <section class="account-card" aria-labelledby="account-title">
+        <div data-auth-loading class="auth-loading">Verificando su sesión…</div>
+        <div data-auth-guest hidden>
+          <h2 id="account-title">Iniciar sesión</h2>
+          <p class="account-muted">Elija la opción que prefiera.</p>
+          <div class="social-login-grid">
+            <button class="social-login google" type="button" data-oauth="google"><span class="social-icon">G</span> Continuar con Google</button>
+            <button class="social-login facebook" type="button" data-oauth="facebook"><span class="social-icon">f</span> Continuar con Facebook</button>
+          </div>
+          <div class="auth-divider"><span>o use su correo</span></div>
+          <div class="auth-tabs" role="tablist" aria-label="Acceso por correo">
+            <button type="button" class="active" data-auth-tab="login" role="tab" aria-selected="true">Ingresar</button>
+            <button type="button" data-auth-tab="signup" role="tab" aria-selected="false">Crear cuenta</button>
+          </div>
+          <form data-email-auth class="account-form">
+            <div class="field" data-name-field hidden><label for="account-name">Nombre completo</label><input id="account-name" name="name" autocomplete="name" maxlength="100"></div>
+            <div class="field"><label for="account-email">Correo electrónico</label><input id="account-email" name="email" type="email" autocomplete="email" required></div>
+            <div class="field"><label for="account-password">Contraseña</label><input id="account-password" name="password" type="password" autocomplete="current-password" minlength="8" required><small data-password-help>Ingrese su contraseña.</small></div>
+            <button class="btn btn-dark full" type="submit" data-auth-submit>Ingresar</button>
+            <button class="auth-link" type="button" data-reset-password>¿Olvidó su contraseña?</button>
+          </form>
+          <p class="auth-message" data-auth-message role="status" aria-live="polite"></p>
+          <p class="auth-terms">Al continuar, acepta el uso de sus datos para gestionar su cuenta y solicitudes en EsquiSolar.</p>
+        </div>
+        <div data-auth-user hidden>
+          <div class="account-avatar" data-user-initial aria-hidden="true">E</div>
+          <span class="eyebrow">Sesión activa</span><h2 data-user-name>Bienvenido</h2><p class="account-muted" data-user-email></p>
+          <div class="account-session-actions"><a class="btn btn-primary" href="productos.html">Ir a la tienda</a><button class="btn btn-outline" type="button" data-sign-out>Cerrar sesión</button></div>
+        </div>
+      </section>
+    </section>
+  </main>
+  <div data-footer></div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="js/supabase-config.js?v=13"></script>
+  <script src="js/app.js?v=14"></script>
+  <script src="js/auth.js?v=1"></script>
+</body>
+</html>

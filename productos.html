@@ -14,14 +14,14 @@
   <a class="skip-link" href="#contenido">Ir al contenido</a>
   <div data-header></div>
   <main id="contenido">
-    <section class="page-hero"><div class="container"><span class="eyebrow">Tienda EsquiSolar</span><h1>Equipos para cada proyecto solar</h1><p>Consulte nuestros equipos, capacidades y precios. Las existencias se confirman antes de comprar.</p></div></section>
-    <section class="section"><div class="container"><div class="section-head"><div><span class="eyebrow">Tienda</span><h2>Equipos y accesorios</h2></div><p>Busque el equipo que necesita y agréguelo al carrito.</p></div><div class="toolbar"><div class="field"><label for="search">Buscar equipos</label><input id="search" data-search type="search" placeholder="Ej. panel 550 W, batería, código..."></div><div class="field"><label for="category">Categoría</label><select id="category" data-category><option value="">Todas</option></select></div><div class="field"><label for="sort">Ordenar precio</label><select id="sort" data-sort><option value="">Relevancia</option><option value="asc">Menor a mayor</option><option value="desc">Mayor a menor</option></select></div></div><div class="grid grid-3" data-product-grid></div></div></section>
+    <section class="store-hero"><div class="container"><span class="eyebrow">Tienda EsquiSolar</span><h1>Encuentre su equipo solar</h1><p>Paneles, baterías, inversores y soluciones con asesoría en toda Guatemala.</p><div class="store-search"><input data-store-search type="search" placeholder="¿Qué equipo está buscando?" aria-label="Buscar productos"><button type="button" data-store-search-button aria-label="Buscar">⌕</button></div></div></section>
+    <section class="category-section"><div class="container"><div class="store-section-title"><span class="eyebrow">Explore</span><h2>Compra por categoría</h2></div><div class="category-strip" data-category-strip aria-label="Categorías de productos"></div></div></section>
+    <section class="store-products"><div class="container"><div class="store-list-head"><div><span class="eyebrow">Tienda</span><h2>Todos los productos</h2><p data-results-count>Equipos disponibles</p></div><div class="mobile-store-actions"><button class="btn btn-outline" type="button" data-mobile-filter>⚙ Filtrar</button><button class="btn btn-outline" type="button" data-mobile-sort>Ordenar por</button></div></div><div class="toolbar" data-filter-panel><div class="field"><label for="search">Buscar equipos</label><input id="search" data-search type="search" placeholder="Panel, batería, inversor o código..."></div><div class="field"><label for="category">Categoría</label><select id="category" data-category><option value="">Todas</option></select></div><div class="field"><label for="sort">Ordenar precio</label><select id="sort" data-sort><option value="">Relevancia</option><option value="asc">Menor a mayor</option><option value="desc">Mayor a menor</option></select></div></div><div class="store-grid" data-product-grid></div></div></section>
   </main>
   <div data-footer></div>
-  <div class="modal" data-product-modal><div class="modal-panel"><div class="modal-head"><div data-product-detail></div><button class="icon-button" onclick="document.querySelector('[data-product-modal]').classList.remove('open')" aria-label="Cerrar">×</button></div></div></div>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js?v=12"></script>
-  <script src="js/app.js"></script>
-  <script src="js/carrito.js?v=33"></script>
+  <script src="js/app.js?v=15"></script>
+  <script src="js/carrito.js?v=34"></script>
 </body>
 </html>
