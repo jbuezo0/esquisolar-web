@@ -112,6 +112,9 @@
 .home-store-band h2 { color: #fff; max-width: 720px; }
 .home-store-band p { max-width: 700px; color: #c7d6e5; }
 .home-store-band .actions { justify-content: flex-end; }
+.home-seo-links { display: flex; flex-wrap: wrap; gap: 9px; margin-top: 18px; }
+.home-seo-links a { border: 1px solid rgba(255,255,255,.3); border-radius: 999px; padding: 7px 12px; color: #fff; font-weight: 800; font-size: .82rem; }
+.home-seo-links a:hover { border-color: #7bdd5d; color: #7bdd5d; }
 .home-outline-light { color: #fff; border: 1px solid rgba(255,255,255,.35); }
 .home-faq details { max-width: 900px; margin-left: auto; margin-right: auto; }
 @media(max-width:900px){.home-reference .nav{height:76px}.home-reference .nav-links{top:76px}.home-store-grid{grid-template-columns:1fr}.home-store-band .actions{justify-content:flex-start}}
