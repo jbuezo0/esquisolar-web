@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /administrar-productos.html
+Disallow: /cuenta.html
+
+Sitemap: https://esquisolar.com/sitemap.xml

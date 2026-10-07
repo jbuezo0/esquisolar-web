@@ -3,6 +3,18 @@ const money = new Intl.NumberFormat("es-GT", { style: "currency", currency: "GTQ
 const page = location.pathname.split('/').pop() || 'index.html';
 
 const nav = [['index.html','Inicio'],['productos.html','Tienda Solar'],['servicios.html','Servicios'],['nosotros.html','Nosotros'],['contacto.html','Contacto']];
+const seoPages={
+  'servicios.html':{title:'Instalación y servicios de energía solar | EsquiSolar',description:'Diseño, instalación, mantenimiento, ampliación y bombeo solar para hogares, fincas y empresas en Guatemala.'},
+  'nosotros.html':{title:'EsquiSolar | Soluciones solares en Guatemala',description:'Conozca a EsquiSolar y nuestro enfoque para diseñar soluciones solares claras, confiables y adaptadas a cada necesidad.'}
+};
+function setupPageSeo(){
+  const seo=seoPages[page];if(!seo)return;
+  document.title=seo.title;
+  let description=document.querySelector('meta[name="description"]');if(description)description.content=seo.description;
+  const canonicalUrl=`https://esquisolar.com/${page.replace(/\.html$/,'')}`;
+  const definitions=[['link','canonical','href',canonicalUrl],['meta','og:title','content',seo.title],['meta','og:description','content',seo.description],['meta','og:type','content','website'],['meta','og:url','content',canonicalUrl],['meta','og:image','content','https://esquisolar.com/assets/images/hero-solar.png']];
+  definitions.forEach(([tag,key,attribute,value])=>{const selector=tag==='link'?`link[rel="${key}"]`:`meta[property="${key}"]`;let element=document.querySelector(selector);if(!element){element=document.createElement(tag);element.setAttribute(tag==='link'?'rel':'property',key);document.head.appendChild(element)}element.setAttribute(attribute,value)});
+}
 function whatsappUrl(text){return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`}
 function layout(){
   document.querySelector('[data-header]').innerHTML=`<div class="topbar">☀ Envíos a todo el país · Asesoría personalizada · Equipos con garantía</div><header class="site-header"><div class="container nav"><a class="brand" href="index.html"><img class="brand-logo" src="assets/images/logo-esquisolar-icon.webp" alt="Logo de EsquiSolar" width="52" height="48"><span>EsquiSolar</span></a><button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button><nav class="nav-links" aria-label="Principal">${nav.map(([u,n])=>`<a href="${u}" ${page===u?'aria-current="page"':''}>${n}</a>`).join('')}</nav><div class="nav-actions"><a class="btn btn-outline btn-account" href="cuenta.html">👤 <span>Mi cuenta</span></a><a class="btn btn-primary" href="contacto.html#cotizacion">Solicitar cotización</a><button class="btn btn-outline cart-button" data-open-cart aria-label="Abrir carrito">🛒 <span class="cart-count" data-cart-count>0</span></button></div></div></header>`;
@@ -36,4 +48,4 @@ function setupChatbot(){
 }
 function toast(message){const el=document.querySelector('.toast');el.textContent=message;el.classList.add('show');setTimeout(()=>el.classList.remove('show'),2200)}
 function sendQuote(form,title){if(!form.reportValidity())return;const data=new FormData(form);const lines=[`Hola, EsquiSolar. Quiero solicitar una cotización de ${title}:`,''];for(const [key,value] of data){if(value)lines.push(`${key}: ${value}`)}lines.push('','Quedo pendiente de su asesoría y confirmación.');window.open(whatsappUrl(lines.join('\n')),'_blank','noopener')}
-document.addEventListener('DOMContentLoaded',()=>{layout();setupChatbot();document.querySelectorAll('[data-wa]').forEach(a=>a.href=whatsappUrl(a.dataset.wa));document.querySelectorAll('[data-quote-form]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();sendQuote(f,f.dataset.quoteForm)}));});
+document.addEventListener('DOMContentLoaded',()=>{setupPageSeo();layout();setupChatbot();document.querySelectorAll('[data-wa]').forEach(a=>a.href=whatsappUrl(a.dataset.wa));document.querySelectorAll('[data-quote-form]').forEach(f=>f.addEventListener('submit',e=>{e.preventDefault();sendQuote(f,f.dataset.quoteForm)}));});
