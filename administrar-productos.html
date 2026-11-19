@@ -32,7 +32,8 @@
           <input type="hidden" name="current_image">
           <input type="hidden" name="current_image_path">
           <h2 data-form-title>Agregar producto</h2>
-          <div class="field"><label for="product-image">Imagen del producto <span data-image-required>*</span></label><input id="product-image" name="image" type="file" accept="image/png,image/jpeg,image/webp" required><small data-image-help>La imagen se optimiza antes de guardarse.</small></div>
+          <div class="field"><label for="product-image">Agregar fotos <span data-image-required>*</span></label><input id="product-image" name="image" type="file" accept="image/png,image/jpeg,image/webp" multiple><small data-image-help>Seleccione una o varias fotos. Los cambios se publican al guardar.</small></div>
+          <div class="field"><label for="product-image-url">O agregar foto desde un enlace</label><input id="product-image-url" type="url" placeholder="https://…"><button class="btn btn-outline" type="button" data-add-image-url>Agregar enlace</button></div>
           <div class="image-preview" data-image-preview><span>Vista previa</span></div>
           <div class="field"><label for="product-name">Nombre *</label><input id="product-name" name="name" maxlength="100" inputmode="text" required></div>
           <div class="form-grid compact-grid"><div class="field"><label for="product-brand">Marca (opcional)</label><input id="product-brand" name="brand" maxlength="80" inputmode="text" placeholder="Ej. LuxPower"></div><div class="field"><label for="product-model">Modelo (opcional)</label><input id="product-model" name="model" maxlength="80" inputmode="text" placeholder="Ej. SNA 6000"></div></div>
@@ -50,6 +51,6 @@
   </main>
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="js/supabase-config.js?v=12"></script>
-  <script src="js/admin-productos.js?v=12"></script>
+  <script src="js/admin-productos.js?v=20261119"></script>
 </body>
 </html>

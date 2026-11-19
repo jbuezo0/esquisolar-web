@@ -23,6 +23,9 @@ create table if not exists public.productos (
 
 alter table public.productos enable row level security;
 
+alter table public.productos add column if not exists imagenes jsonb not null default '[]'::jsonb check (jsonb_typeof(imagenes) = 'array');
+alter table public.productos add column if not exists activo boolean not null default true;
+
 grant usage on schema public to anon, authenticated;
 grant select on public.productos to anon;
 grant select, insert, update, delete on public.productos to authenticated;

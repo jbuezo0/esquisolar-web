@@ -36,7 +36,7 @@ function setupCart(){
 }
 
 async function loadProducts(){
-  try{const r=await fetch('data/productos.json?v=34');const base=await r.json();let online=[];if(typeof supabaseClient!=='undefined'){const result=await supabaseClient.from('productos').select('*').order('creado_en',{ascending:false});if(result.error)console.error(result.error);online=result.data||[]}products=[...online,...base];window.esquisolarProducts=products;renderCart();document.dispatchEvent(new CustomEvent('products-loaded',{detail:products}));return products}catch(e){console.error(e);return[]}
+  try{const r=await fetch('data/productos.json?v=34');const base=await r.json();let online=[];if(typeof supabaseClient!=='undefined'){const result=await supabaseClient.from('productos').select('*').order('creado_en',{ascending:false});if(result.error)console.error(result.error);online=result.data||[]}const catalog=new Map(base.map(item=>[item.codigo,item]));online.forEach(item=>catalog.set(item.codigo,{...catalog.get(item.codigo),...item}));products=[...catalog.values()].filter(item=>item.activo!==false);window.esquisolarProducts=products;renderCart();document.dispatchEvent(new CustomEvent('products-loaded',{detail:products}));return products}catch(e){console.error(e);return[]}
 }
 
 function productMeta(p){return [p.categoria,p.marca,p.modelo].filter(Boolean).join(' · ')}
